@@ -1,0 +1,25 @@
+{
+  "name": "read-random",
+  "version": "0.0.0",
+  "description": "read from /dev/urandom or another random number source device",
+  "author": "Kyle E. Mitchell <kyle@kemitchell.com> (https://kemitchell.com/)",
+  "repository": "kemitchell/read-random.js",
+  "os": [
+    "darwin",
+    "linux"
+  ],
+  "files": [
+    "index.js"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "defence-cli": "^2.0.1",
+    "replace-require-self": "^1.1.1",
+    "standard": "^10.0.2",
+    "standard-markdown": "^4.0.1"
+  },
+  "scripts": {
+    "test": "defence -i javascript README.md | replace-require-self | node",
+    "lint": "standard && standard-markdown"
+  }
+}
