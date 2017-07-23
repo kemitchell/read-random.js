@@ -1,6 +1,6 @@
 {
   "name": "read-random",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "read from /dev/urandom or another random number source device",
   "author": "Kyle E. Mitchell <kyle@kemitchell.com> (https://kemitchell.com/)",
   "repository": "kemitchell/read-random.js",
